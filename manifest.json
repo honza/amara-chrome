@@ -1,0 +1,23 @@
+{
+	"name": "Amara",
+	"version": "0.1",
+	"description": "Does the current video have subtitles?",
+	"homepage_url": "https://www.universalsubtitles.org",
+	"permissions": [
+		"https://www.universalsubtitles.org/",
+		"tabs"
+		],
+  "page_action": {
+		"default_icon": "images/favicon.png",
+		"default_title": "Snipt it"
+	},
+  "background": {
+    "scripts": ["scripts/jquery-1.7.2.min.js", "scripts/amara.main.js"]
+  },
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["scripts/jquery-1.7.2.min.js", "scripts/amara.content.js"]
+		}
+	]
+}
