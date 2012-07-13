@@ -9,7 +9,7 @@
 		],
   "page_action": {
 		"default_icon": "images/favicon.png",
-		"default_title": "Snipt it"
+		"default_title": "Amara"
 	},
   "background": {
     "scripts": ["scripts/jquery-1.7.2.min.js", "scripts/amara.main.js"]
