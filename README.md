@@ -1,7 +1,16 @@
 Amara Chrome Extension
 ======================
 
-Work in progress
+Show a little Amara logo in the address bar if the Youtube video you are
+viewing is available on Amara.  Clicking the Amara logo will redirect you to
+the video page on Amara.
 
-Show a little Amara logo in the URL bar when the current Youtube, Vimeo, etc
-page contains a video that is available on Amara.
+Todo
+----
+
+* Implement for other providers
+
+License
+-------
+
+BSD, short and sweet.
